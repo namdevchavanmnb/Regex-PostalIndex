@@ -10,3 +10,7 @@ console.log(postalcheck1);
 let postalRegex3 =RegExp('^[0-9]{6}[A-Z]{1}$');
 let postalcheck2 =postalRegex3.test("023434A");
 console.log(postalcheck2);
+
+let postalRegex4 =RegExp('^[0-9]{3}[ ]?[0-9]{3}$');
+let postalcheck3 =postalRegex4.test("023 434");
+console.log(postalcheck3);
